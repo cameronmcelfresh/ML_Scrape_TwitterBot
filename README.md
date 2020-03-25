@@ -745,7 +745,7 @@ I think we have to provide more and more housing and buying people out of their 
 
 
 ## 5. Twitter Bot Assembly
-The complete code for building the twitter bot can be found in **newspaper_RNN_comments_TF.py**. Once the RNN model was trained and saved - it was uploaded to a free virtual machine on Google cloud. The code probes the Palo Alto Online Town Square page every several hours to check if a new article has been uploaded.
+The complete code for building the twitter bot can be found in **twitter_RNN.py**. Once the RNN model was trained and saved - it was uploaded to a free virtual machine on Google cloud. The code probes the Palo Alto Online Town Square page every several hours to check if a new article has been uploaded.
 
 Prior to posting, the page must be scraped for new article titles and topics. 
 <details><summary>Collecting Real-Time Article Information (Click me)</summary>
