@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb 20 16:56:47 2020
-
-@author: cmcelfresh
-"""
-
-
 """Mounting and Authorizing"""
 
 #Mount the google drive and move into the folder with the data
