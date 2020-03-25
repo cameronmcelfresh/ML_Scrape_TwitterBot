@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 23 15:31:50 2019
-
-@author: Cameron
-"""
 
 from bs4 import BeautifulSoup
 import requests
@@ -37,7 +31,7 @@ for num in num_list:
     
     page_url = base_page_url + "?sort=&cat=&search=&s=" + str(page_val)
 
-    #Extract the movie titles and IMDB classification
+    #Unsegmented page text
     page = requests.get(page_url)
     soup = BeautifulSoup(page.content, 'html.parser')
     
