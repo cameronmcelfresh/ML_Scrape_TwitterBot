@@ -9,7 +9,7 @@ That being said, check out the results of the twitter bot at : https://twitter.c
 - **[3. Text Clustering](#3-text-clustering)**<br>
     * **[3.1 Unsupervised KNN Clustering](#31-unsupervised-KNN-clustering)**<br>
     * **[3.2 Supervised Text Classification](#32-supervised-text-classification)**<br>
-- **[4. RNN Commenter](#4-rnn-commenter)**<br>
+- **[4. GRU Commenter](#4-gru-commenter)**<br>
 - **[5. Twitter Bot Assembly](#5-twitter-bot-assembly)**<br>
 
 ### To-Do
@@ -465,8 +465,8 @@ Then we can plot the confusion matrix to see where the errors are coming from.
 <img src="https://github.com/cameronmcelfresh/newspaper_images/blob/master/confusion.png" width="500">
 
 
-## 4. RNN Commenter
-The complete code for RNN model building and training is listed in **newspaper_RNN_comments_TF.py**. I chose to use a GRU though a LSTM could be readily implemented. It should be emphasized that there is an inherent disadvantage working with this type of comment text because there are the topic and style of writing can vary wildly from comment to comment. 
+## 4. GRU Commenter
+The complete code for GRU model building and training is listed in **newspaper_RNN_comments_TF.py**. I chose to use a GRU though a LSTM could be readily implemented. It should be emphasized that there is an inherent disadvantage working with this type of comment text because there are the topic and style of writing can vary wildly from comment to comment. 
 
 Note that the code is modified to run in a Google Collab (https://colab.research.google.com/notebooks/intro.ipynb) notebook to take advantage of the online-accesible GPUs. Simple modifications could be made to run the code on a local machine. 
 
